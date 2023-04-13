@@ -6,7 +6,7 @@ def print_resume(resume):
     print("Education: " + resume.get('education'))
     print("Skills: " + "".join(resume.get('skills')))
 
-resume = {'name':'Assel','age': '19','education':'Satbayev university', 'skills':'programming smart strong'}
+resume = {'name':'Maira','age': '18','education':'Satbayev university', 'skills':'programming smart strong'}
 print(get_skills(resume))
 print()
 print_resume(resume)
